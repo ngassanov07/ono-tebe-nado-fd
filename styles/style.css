@@ -224,6 +224,7 @@
 }
 
 .lots__look-more-link {
+  max-width: fit-content;
   margin-left: 40px;
   color: #000;
   font-weight: 400;
@@ -288,6 +289,14 @@
   padding: 0 50px 82px;
 }
 
+.address__footer {
+  justify-self: start;
+}
+
+.footer__menu {
+  justify-self: center;
+}
+
 .footer__links-list {
   color: #000;
   font-weight: 400;
@@ -309,6 +318,7 @@
 .footer__social-list {
   display: flex;
   flex-direction: row;
+  justify-self: end;
   gap: 48px;
   list-style: none;
 }
@@ -316,16 +326,4 @@
 .footer__social-icon {
   width: 48px;
   height: 48px;
-}
-
-.footer > :nth-child(1) {
-  justify-self: start;
-}
-
-.footer > :nth-child(2) {
-  justify-self: center;
-}
-
-.footer > :nth-child(3) {
-  justify-self: end;
 }
